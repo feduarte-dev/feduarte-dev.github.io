@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(70, 70, 70);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.navigation {
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navigation > li {
+  float: left;
+  padding: 0 16px;
+}
+.navigation > li > a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8em;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#bio {
+  padding: 0 20%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.skills {
+  display: inline-block;
+  margin: 30px;
+  text-align: left;
+  font-size: 1.1em;
+}
+.skills > ul {
+  padding-left: 0;
+}
+
+.skills > ul > li {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
