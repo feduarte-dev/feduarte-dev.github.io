@@ -1,4 +1,76 @@
 body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  color: rgb(200, 200, 200);
+  height: 2000px;
+}
+/*Navigation Bar*/
+.icone {
+  width: 24px;
+  color: rgb(200, 200, 200);
+  height: 24px;
+  padding: 12px;
+}
+.text-nav:hover {
+  color: rgb(200, 200, 200);
+  font-weight: 900;
+}
+
+.icone:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background 0.5s;
+  border-radius: 50%;
+}
+
+.navigation {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100% ;
+}
+.texto-nav > li > a {
+  color: rgb(200, 200, 200);
+}
+
+@media (max-width: 990px) {
+  .navbar-brand > img {
+    display: none;
+  }
+  .desktop-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 990px) {
+  .mobile-icons {
+    display: none;
+  }
+}
+
+/*Header*/
+#photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  
+}
+
+.foto-felipe {
+  text-align: center;
+}
+
+.perfil {padding-top: 100px;}
+
+.text-perfil>p {line-height: 2em;}
+
+
+
+
+
+
+
+/*body {
   background-color: rgb(70, 70, 70);
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -49,3 +121,4 @@ body {
   list-style-type: none;
   text-decoration: none;
 }
+*/
