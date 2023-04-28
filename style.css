@@ -2,6 +2,7 @@ body {
   background-image: url(./assets/background.jpg);
   background-size: cover;
   color: rgb(200, 200, 200);
+  height: 2000px;
 }
 /*Navigation Bar*/
 .icone {
@@ -23,7 +24,8 @@ body {
 
 .navigation {
   background-color: rgba(0, 0, 0, 0.3);
-  
+  position: fixed;
+  width: 100% ;
 }
 .texto-nav > li > a {
   color: rgb(200, 200, 200);
@@ -58,7 +60,7 @@ body {
   text-align: center;
 }
 
-.perfil {padding-top: 50px;}
+.perfil {padding-top: 100px;}
 
 .text-perfil>p {line-height: 2em;}
 
