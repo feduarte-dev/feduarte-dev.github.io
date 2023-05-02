@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(./assets/background.jpg);
   background-size: cover;
   color: rgb(200, 200, 200);
-  }
+}
 /*Navigation Bar*/
 .icone {
   width: 24px;
@@ -24,13 +30,15 @@ body {
 .navigation {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
-  width: 100% ;
+  width: 100%;
 }
 .texto-nav > li > a {
   color: rgb(200, 200, 200);
 }
 
-.logo {text-align: center;}
+.logo {
+  text-align: center;
+}
 
 @media (max-width: 990px) {
   .navbar-brand > img {
@@ -55,22 +63,19 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.1);
-  
 }
 
 .foto-felipe {
   text-align: center;
 }
 
-.perfil {padding: 150px 20px 0;}
+.perfil {
+  padding: 150px 20px 0;
+}
 
-.text-perfil>p {line-height: 2em;}
-
-
-
-
-
-
+.text-perfil > p {
+  line-height: 2em;
+}
 
 /*body {
   background-color: rgb(70, 70, 70);
